@@ -1019,6 +1019,11 @@ section,
   position: relative;
 }
 
+.portfolio-item img{
+  max-width: 300px;
+  max-height: calc(80% - 20px);
+}
+
 .portfolio .portfolio-item .portfolio-info {
   background-color: color-mix(in srgb, var(--surface-color), transparent 10%);
   opacity: 0;
@@ -1629,7 +1634,7 @@ section,
 }
 
 .portfolio-details .swiper-wrapper {
-  height: auto;
+  height: 100%;
 }
 
 .portfolio-details .swiper-button-prev,
