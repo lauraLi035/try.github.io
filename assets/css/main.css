@@ -1768,6 +1768,10 @@ section,
   padding-top: 20px;
 }
 
+.portfolio-description div{
+  margin-bottom: 15%;
+}
+
 .portfolio-details .portfolio-description .testimonial-item h4 {
   font-size: 14px;
   color: #6c757d;
